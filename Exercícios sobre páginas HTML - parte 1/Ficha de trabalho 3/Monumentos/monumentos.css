@@ -1,0 +1,50 @@
+/* Nessa folha de estilos defina o fundo da página com a cor #669966, o tipo de letra Verdana, tamanho 12 */
+/* pixéis e cor #FFFFFF. Defina o Título 1 com o tamanho 14 pixéis, estilo negrito, alinhamento do texto */
+/* centrado e cor #000099. Defina as hiperligações para que nunca apareçam sublinhadas e com as */
+/* seguintes cores: #FFCC66 para as hiperligações e para as hiperligações visitadas, #333333 para a */
+/* passagem do rato por cima das hiperligações e #999999 para as hiperligações ativas. Quando o rato passa */
+/* por cima de uma hiperligação, esta deve, ainda, ficar a negrito. */
+
+body{
+    background-color: #669966;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+img{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+}
+
+h1{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #000099;
+}
+
+a{
+    text-decoration: none;
+    color: #FFCC66;
+}
+
+a:visited{
+    color: #FFCC66;
+}
+
+a:hover{
+    color: #333333;
+    font-weight: bold;
+}
+
+a:active{
+    color: #999999;
+}
+
+.seg{
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+}
